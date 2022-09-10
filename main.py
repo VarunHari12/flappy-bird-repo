@@ -63,7 +63,6 @@ def on_forever():     # some microbit thing that lets the game state work in the
 
     moveleft()
 
- 
     basic.pause(500) # pause for half a second, so the game doesn't run too fast
 
 basic.forever(on_forever)
